@@ -1,0 +1,103 @@
+/*CSS for index of JL*/
+
+.main-wrapper
+{
+	background: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+header
+{
+	font-size: 0;
+	line-height: 0;
+}
+
+nav
+{
+	background: #282A35;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+}
+
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	float: right;
+}
+
+nav ul li, nav .logo
+{
+	display: inline-block;
+	height: 50px;
+	margin: 0 20px;
+	font-size: 20px;
+	line-height: 50px;
+}
+
+nav ul li a
+{
+	line-height: inherit;
+	text-decoration: none;
+	display: inline-block;
+	height: inherit;
+	color: #fff;
+}
+
+#logo
+{
+	height: 50px;
+}
+
+#banner
+{
+	background: rgba(255,255,255,0.1);
+	height: 700px;
+}
+
+#banner .inner
+{
+	max-width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: 160px;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

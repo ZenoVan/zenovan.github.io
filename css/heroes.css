@@ -1,3 +1,14 @@
+/*CSS for heroes*/
+
+.main-wrapper
+{
+	background: #fff;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
 nav
 {
 	background: #ccc;
@@ -94,54 +105,14 @@ nav ul li a
 	font-size: 30px;
 }
 
-.green-section
-{
-	background: #0a7e07;
-	color: #fff;
-	text-align: center;
-	padding: 100px 0;
-}
-
-.green-section .hr
-{
-	background: #06661b;
-}
-
-.green-section .icon-group .icon
-{
-	display: inline-block;
-	width: 80px;
-	height: 80px;
-	background: #0a6208;
-	transform: rotate(45deg);
-	margin: 20px;
-}
-
-.wrapper
-{
-	max-width: 1080px;
-	margin: 0 auto;
-}
-
-.other-section
-{
-	background: #252f34;
-	color: #fff;
-}
-
-.other-section .img-section
-{
-	width: 45%;
-}
-
-.img-section img
-{
-	width: 100%;
-}
-
-.other-section .text-section
+.article-preview .text-section
 {
 	width: 55%;
+}
+
+.article-preview .img-section
+{
+	width: 45%;
 }
 
 .article-preview > div
@@ -155,11 +126,6 @@ nav ul li a
 	content: '';
 	display: block;
 	clear: both;
-}
-
-.article-preview:nth-child(odd)
-{
-	background-color: rgba(255,255,255,0.05);
 }
 
 .text-section
@@ -185,15 +151,6 @@ nav ul li a
 .text-section > *
 {
 	max-width: 80%;
-}
-
-.main-wrapper
-{
-	background: #444 url(../img/bg.jpg);
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
 }
 
 footer {
@@ -231,10 +188,6 @@ ul .share-group {
 .copy p {
   font-size: 14px;
 }
-
-
-
-
 
 
 

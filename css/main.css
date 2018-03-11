@@ -33,6 +33,11 @@ nav ul li a
 	color: #fff;
 }
 
+nav ul li a:hover
+{
+	text-decoration: underline;
+}
+
 #banner .inner
 {
 	max-width: 300px;
@@ -208,39 +213,43 @@ nav ul li a
 	background-position: center center;
 }
 
-footer {
+footer
+{
   background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
   min-height: 100px;
   text-align: center;
 }
 
-ul .share-group {
-  display: block;
-  width: 1080px;
-  margin: 0 auto;
-  padding: 120px;
+.share-group
+{
+  padding: 0;
 }
 
-.share-group li {
+.share-group li
+{
   display: inline-block;
   padding: 25px 20px;
 }
 
-.share-group li a {
+.share-group li a
+{
   text-decoration: none;
   color: #fff;
 }
 
-.share-group li a:hover {
+.share-group li a:hover
+{
   text-decoration: underline;
 }
 
-.copy {
+.copy
+{
   padding-bottom: 30px;
 }
 
-.copy p {
+.copy p
+{
   font-size: 14px;
 }
 

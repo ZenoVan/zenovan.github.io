@@ -2,7 +2,7 @@
 
 #superman
 {
-	background: #2647d8;
+	background: #093f86;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -74,6 +74,11 @@ nav ul li a
 	display: inline-block;
 	height: inherit;
 	color: #fff;
+}
+
+nav ul li a:hover
+{
+	text-decoration: underline;
 }
 
 #banner .inner
@@ -194,32 +199,35 @@ footer {
   font-size: 18px;
 }
 
-ul .share-group {
-  display: block;
-  width: 1080px;
-  margin: 0 auto;
-  padding: 120px;
+.share-group
+{
+  padding: 0;
 }
 
-.share-group li {
+.share-group li
+{
   display: inline-block;
   padding: 25px 20px;
 }
 
-.share-group li a {
+.share-group li a
+{
   text-decoration: none;
   color: #fff;
 }
 
-.share-group li a:hover {
+.share-group li a:hover
+{
   text-decoration: underline;
 }
 
-.copy {
+.copy
+{
   padding-bottom: 30px;
 }
 
-.copy p {
+.copy p
+{
   font-size: 14px;
 }
 

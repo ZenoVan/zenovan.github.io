@@ -1,12 +1,43 @@
 /*CSS for heroes*/
 
-.main-wrapper
+#superman
 {
-	background: #fff;
+	background: #2647d8;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	font-size: 0;
+}
+
+#batman
+{
+	background: #656060;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	font-size: 0;
+}
+
+#flash
+{
+	background: #DA4D26;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	font-size: 0;
+}
+
+#lantern
+{
+	background: #4EB556;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	font-size: 0;
 }
 
 nav
@@ -26,6 +57,7 @@ nav ul
 	list-style: none;
 	margin: 0;
 	float: right;
+	font-size: 16px;
 }
 
 nav ul li, nav .logo
@@ -132,20 +164,21 @@ nav ul li a
 {
 	position: relative;
 	top: 70px;
-	left: 100px;
 }
 
 .text-section h2
 {
 	font-size: 20px;
 	margin-bottom: 10px;
+	left: 100px;
 }
 
 .text-section p
 {
-	font-size: 11px;
+	font-size: 15px;
 	letter-spacing :1px;
 	margin: 1px;
+	left: 100px;
 }
 
 .text-section > *
@@ -158,6 +191,7 @@ footer {
   color: #fff;
   min-height: 100px;
   text-align: center;
+  font-size: 18px;
 }
 
 ul .share-group {

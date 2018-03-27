@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+#Layer1 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:1;
+	left: 37px;
+	top: 11px;
+}
+#Layer2 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:2;
+	left: 380px;
+	top: 9px;
+}
+#Layer3 {
+	position:relative;
+	width:45px;
+	height:43px;
+	z-index:3;
+}
+#Layer4 {
+	position:absolute;
+	left:430px;
+	top:-16px;
+	width:89px;
+	height:54px;
+	z-index:4;
+}
+#gleft{
+	position:fixed;
+	top:15%;
+	left:5%;
+	width:53px;
+	height:126px;
+	_position:fixed;	
+	_bottom:auto;	
+	_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+	_margin-bottom:70%;
+}
+ 
+
+#gright{
+		
+	
+	position:fixed;
+	top:15%;
+	left:91%;
+	width:53px;
+	height:126px;
+	_position:fixed;	
+	_bottom:auto;	
+	_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+	_margin-bottom:70%;	
+}
+.STYLE6 {font-family: Arial, Helvetica, sans-serif}
+#Layer5 {
+	position:absolute;
+	left:54px;
+	top:51px;
+	width:85px;
+	height:421px;
+	z-index:2;
+}
+#Layer6 {
+	position:absolute;
+	left:1255px;
+	top:51px;
+	width:85px;
+	height:439px;
+	z-index:3;
+}
